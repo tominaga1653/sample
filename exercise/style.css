@@ -3,26 +3,24 @@
   padding: 0;
   box-sizing: border-box;
 }
-.img{
-  height: 200px;
-}
-.box1{
-  background-image: url(img/box1.jpg);
+.top{
+  height: 400px;
+  background-image: url(img1/mv.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
-.box2{
-  background-image: url(img/box2.jpg);
-  background-size: cover;
-  background-position: center;
+.top h1{
+  color: #868282;
+  padding: 20px;
 }
-.box3{
-  background-image: url(img/box3.jpg);
-  background-size: cover;
-  background-position: center;
+main{
+  width: 840px;
+  margin: 20px auto 50px;
 }
-.box4{
-  background-image: url(img/box4.jpg);
-  background-size: cover;
-  background-position: center;
+.content{
+  padding: 30px 0;
+  border-bottom: 2px solid #f7f7f7;
+}
+p,a{
+  color: #868282;
 }

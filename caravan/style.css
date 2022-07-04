@@ -187,3 +187,66 @@ footer{
 .footer-text{
   color: #fff;
 }
+
+@media screen and (max-width:425px){
+  header{
+    width: 100%;
+  }
+  .social {
+    display: none;
+  }
+  .nav-list-item{
+  display: block;
+  margin: 0 0 10px 0;
+  }
+  .main-visual-content{
+    width: 100%;
+  }
+  main{
+    width: 100%;
+    display: block;
+  }
+  .blog{
+    width: 100%;
+    margin: 0;
+  }
+  .blog-box{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .blog-image{
+    width: 49%;
+  }
+  .blog-text{
+    width: 49%;
+    padding-top: 5px;
+  }
+  .category{
+    display: none;
+  }
+  .pagination{
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .common-heading{
+    margin: 50px 0 50px 0;
+  }
+  .sidebar{
+    width: 100%;
+  }
+  .instagram-box{
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd){
+    margin-right: 4%;
+  }
+  .sidebar-contents{
+    padding: 0 3% 0 3%;
+  }
+  .pagination{
+    margin-bottom: 50px;
+  }
+
+
+}
